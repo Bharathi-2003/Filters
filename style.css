@@ -1,0 +1,108 @@
+div.img{
+    margin: 5px;
+    border: 1px solid #000;
+    float: left;
+    width: 20%;
+    filter: blur(3px);
+    text-align: center;
+}
+div.img img{
+    width: 100%;
+    height: auto;
+}
+div.img:hover{
+filter: blur(0px);
+}
+
+div.img-1{
+    margin: 5px;
+    border: 1px solid #000;
+    float: left;
+    width: 20%;
+    filter:brightness(250%);
+    text-align: center;
+}
+div.img-1 img{
+    width: 100%;
+    height: auto;
+}
+div.img-1:hover{
+filter: brightness(90%);}
+div.img-2{
+    margin: 5px;
+    border: 1px solid #000;
+    float: left;
+    width: 20%;
+    filter:hue-rotate(70deg);
+    text-align: center;
+}
+div.img-2 img{
+    width: 100%;
+    height: auto;
+}
+div.img-2:hover{
+filter: hue-rotate(360deg);}
+div.img-3{
+    margin: 5px;
+    border: 1px solid #000;
+    float: left;
+    width: 18.5%;
+    filter:grayscale(100%);
+    text-align: center;
+}
+div.img-3 img{
+    width: 100%;
+    height: auto;
+}
+div.img-3:hover{
+filter: grayscale(0%);}
+div.img-4{
+    margin: 5px;
+    border: 1px solid #000;
+  position: absolute;
+  top: 47%;
+  left: 21%;
+    width: 18.7%;
+    filter:invert(250%);
+    text-align: center;
+}
+div.img-4 img{
+    width: 100%;
+    height: auto;
+}
+div.img-4:hover{
+filter: invert(0%);}
+div.img-5{
+    margin: 5px;
+    border: 1px solid #000;
+   
+   position: absolute;
+   top:47%;
+   left: 0.6%;
+    width: 20%;
+    filter:saturate(250%);
+    text-align: center;
+}
+div.img-5 img{
+    width: 100%;
+    height: auto;
+}
+div.img-5:hover{
+filter: saturate(90%);}
+div.img-6{
+    margin: 5px;
+    border: 1px solid #000;
+   
+   position: absolute;
+   top:47%;
+   left: 40.5%;
+    width: 22%;
+    filter:sepia(250%);
+    text-align: center;
+}
+div.img-6 img{
+    width: 100%;
+    height: auto;
+}
+div.img-6:hover{
+filter: sepia(0%);}
